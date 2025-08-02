@@ -1,0 +1,2 @@
+-e#!/bin/bash
+-etail -n 1 iacta >> iacta
