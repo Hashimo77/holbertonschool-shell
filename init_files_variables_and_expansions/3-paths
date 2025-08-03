@@ -1,9 +1,1 @@
 #!/bin/bash
-count=0
-IFS=":" read -ra paths <<< "$PATH"
-for dir in "${paths[@]}"; do
-    if [ -d "$dir" ]; then
-        ((count++))
-    fi
-done
-echo "$count"
